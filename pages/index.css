@@ -63,12 +63,13 @@
   font-size: 16px;
   line-height: 20px;
   color: #838383;
+  margin-bottom: 40px;
 }
 
 .header__address {
-  margin: 0 0 0 auto;
+  margin: 0 80px 40px auto;
   color: #838383;
-  align-self: flex-end;
+  z-index: 2;
 }
 
 .header__hours {
