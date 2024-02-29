@@ -12,7 +12,6 @@
       name="keywords"
       content="coffee shop, coffee, library, reading, workspace, java, espresso"
     />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="shortcut icon" href="favicon.ico" />
     <title>Coffee Shop</title>
@@ -163,7 +162,27 @@
             </form>
           </div>
         </section>
-        <section class="menu" id="our-menu"></section>
+        <section class="menu" id="our-menu">
+          <div>
+            <h2 class="menu__title">Menu</h2>
+          </div>
+          <p class="menu__subtitle">
+            We brew coffee from locally roasted, Fairtrade certified beans and
+            use biodegradable cups. All teas from our collection are $2/cup.
+          </p>
+          <main class="menu__cards">
+            <article class="card">
+              <h2 class="card__title">Filter</h2>
+              <ul>
+                <li class="card__list-item">
+                  Regular (12oz)
+                  <span class="card__list-divider"></span>
+                  $1
+                </li>
+              </ul>
+            </article>
+          </main>
+        </section>
         <section class="about" id="about-us"></section>
       </main>
       <footer class="footer"></footer>
