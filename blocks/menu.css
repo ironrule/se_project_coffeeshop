@@ -48,6 +48,10 @@
 .card__title {
   font-family: "Inter", Arial, sans-serif;
   margin: 0 0 32px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  list-style-type: none;
 }
 
 .card__list-item {
