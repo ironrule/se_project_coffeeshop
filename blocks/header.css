@@ -6,38 +6,7 @@
   height: 100vh;
   min-height: 720px;
   max-height: 800px;
-}
-
-.nav {
-  display: flex;
-  justify-content: space-between;
-}
-
-.nav__logo {
-  width: 105px;
-  height: 39px;
-  margin: 30px 0 0 30px;
-}
-
-.nav__links {
-  display: flex;
-  margin: 30px 80px 0 0;
-  list-style-type: none;
-  padding: 0;
-  column-gap: 20px;
-}
-
-.nav__link {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  color: #000000;
-  text-decoration: none;
-  transition: color 0.5s linear;
-}
-
-.nav__link:hover {
-  color: #2f80ed;
+  padding: 0 0 80px;
 }
 
 .header__title {
@@ -46,6 +15,7 @@
   line-height: 72px;
   letter-spacing: -0.6px;
   margin: 183px 0 0 80px;
+  max-width: 729px;
 }
 
 .header__span-accent {
@@ -83,7 +53,7 @@
   font-size: 16px;
   line-height: 20px;
   color: #838383;
-  margin-bottom: 40px;
+  margin: 0 0 0 40px;
 }
 
 .header__address {
